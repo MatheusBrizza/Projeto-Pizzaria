@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Projeto Pizzaria/Pizzaria-v1/Pizzaria-v1.iml" filepath="$PROJECT_DIR$/Projeto Pizzaria/Pizzaria-v1/Pizzaria-v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projeto Pizzaria/Pizzaria-v2/Pizzaria-v2.iml" filepath="$PROJECT_DIR$/Projeto Pizzaria/Pizzaria-v2/Pizzaria-v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projeto Pizzaria/Pizzaria-v3/Pizzaria-v3.iml" filepath="$PROJECT_DIR$/Projeto Pizzaria/Pizzaria-v3/Pizzaria-v3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Projeto-Pizzaria.iml" filepath="$PROJECT_DIR$/.idea/Projeto-Pizzaria.iml" />
     </modules>
   </component>
