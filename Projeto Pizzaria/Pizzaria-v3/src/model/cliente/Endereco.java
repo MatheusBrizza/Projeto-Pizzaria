@@ -27,6 +27,8 @@ public class Endereco {
         this.clienteContato = builder.clienteContato;
     }
 
+    public static EnderecoBuilder builder() {return new EnderecoBuilder();}
+
     public static class EnderecoBuilder {
 
         private String logradouro;

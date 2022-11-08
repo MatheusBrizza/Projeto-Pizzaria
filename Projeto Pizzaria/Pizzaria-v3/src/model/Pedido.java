@@ -42,7 +42,9 @@ public class Pedido {
         for(Item i : itens) {
             valorTotal = valorTotal.add(i.getValor());
         }
-        return valorTotal.setScale(2, RoundingMode.HALF_EVEN);
+
+        //return valorTotal.setScale(2, RoundingMode.HALF_EVEN);
+        return metodoPagamento.getStrategy().calcularValor();
     }
 
 

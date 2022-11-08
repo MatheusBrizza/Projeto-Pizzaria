@@ -30,8 +30,19 @@ public class Application {
                 .email(null)
                 .build();
         
-        Endereco enderecoMatheus = new Endereco("Rua XPTO", "123", "90000-000", "RS", contatoMatheus);
-        Cliente clienteMatheus = new Cliente("Matheus Brizola","111222333-44", enderecoMatheus);
+        Endereco enderecoMatheus = Endereco.builder()
+                .logradouro("Rua XPTO")
+                .numero("123")
+                .cep("90000-000")
+                .estado("RS")
+                .clienteContato(contatoMatheus)
+                .build();
+
+        Cliente clienteMatheus = Cliente.builder()
+                .nome("Matheus Brizola")
+                .documento("111222333-44")
+                .endereco(enderecoMatheus)
+                .build();
 
         Comida pizzaMatheus = new Comida(1, new BigDecimal(25), TipoComida.PIZZA_SALGADA, TamanhoComida.FAMILIA);
         Bebida sucoMatheus = new Bebida(1, new BigDecimal(12.90), TipoBebida.SUCO_UVA);
